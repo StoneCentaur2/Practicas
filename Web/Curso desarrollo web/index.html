@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Aprendiendo JavaScript</title><!--Título de la pestaña-->
+    <script src="eventos.js"></script><!--LLamado de script-->
+  </head>
+<body>
+
+<h2>Hola a todos!!!!  </h2>
+<!--Tipo de letra en mayuscula y negritas-->
+<p>Estos son mis primeros scripts de JavaScript</p>
+<!-- <p> para poner texto-->
+<p>
+  Accionado los botones se enciende la luz. <br><!-- Salto de linea-->
+  Con la tecla "Espacio" se puede también accionar.
+</p>
+
+<button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Encender</button>
+<!-- Con este botón realiza un cambio de imagen en el foco -->
+<img id="myImage" src="pic_bulboff.gif" style="width: 100px;">
+<!-- con esta etiqueta o tag, indica el tamaño y demás propiedades de la imagen(es)-->
+<button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Apagar</button>
+<br>
+<button onclick="btn_cambio">con un solo click</button>
+<!--Salto de línea-->
+<br>
+<a href="PáginaEnlace.html">Ir a otra página</a>
+<!-- Enlace para navergar en el mismo sitio web -->
+</body>
+</html>

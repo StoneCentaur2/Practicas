@@ -1,0 +1,6 @@
+peso = float(input("peso: "))
+print("la Altura debe ser en metros")
+est = float(input("su altura: "))
+imc = float(peso*(est*est))
+imc2 = round(imc,2)
+print("Su IMC es: "+str(imc2))

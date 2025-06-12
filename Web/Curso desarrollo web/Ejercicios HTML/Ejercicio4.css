@@ -1,0 +1,21 @@
+ul :first-child{
+    font-size: 20px;
+}
+ul li:first-of-type{
+    color: blue;
+}
+ul li:nth-of-type(even){
+    font-size: 35px;
+}
+ul li:nth-last-of-type(4){
+    font-size: 20px;
+}
+ul li:nth-last-of-type(3){
+    font-size: 28px;
+}
+ul li:last-of-type{ 
+    font-size: 40px;
+}
+ul li:last-child{
+    color: blue;
+}
